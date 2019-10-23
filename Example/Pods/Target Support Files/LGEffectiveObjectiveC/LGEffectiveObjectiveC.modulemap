@@ -1,0 +1,6 @@
+framework module LGEffectiveObjectiveC {
+  umbrella header "LGEffectiveObjectiveC-umbrella.h"
+
+  export *
+  module * { export * }
+}
