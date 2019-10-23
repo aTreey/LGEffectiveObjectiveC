@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'LGEffectiveObjectiveC_Example' do
+  pod 'LGEffectiveObjectiveC', :path => '../'
+
+  target 'LGEffectiveObjectiveC_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
